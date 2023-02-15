@@ -1,0 +1,87 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2706
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh7840\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 * \{\
+	box-sizing: border-box;\
+\}\
+\
+body \{\
+	margin: 0;\
+	padding: 0;\
+	background-color: #1c2331;\
+	color: #fff;\
+	font-family: Arial, sans-serif;\
+\}\
+\
+.container \{\
+	width: 50%;\
+	margin: 0 auto;\
+	padding: 20px;\
+\}\
+\
+.header \{\
+	text-align: center;\
+	margin-bottom: 20px;\
+\}\
+\
+.form-group \{\
+	margin-bottom: 20px;\
+\}\
+\
+.form-group label \{\
+	display: block;\
+	margin-bottom: 5px;\
+\}\
+\
+.form-group input \{\
+	display: block;\
+	width: 100%;\
+	padding: 10px;\
+	border-radius: 5px;\
+	border: none;\
+	background-color: #2c3e50;\
+	color: #fff;\
+\}\
+\
+.form-group input:focus \{\
+	outline: none;\
+\}\
+\
+.form-group .status-icon \{\
+	display: inline-block;\
+	width: 20px;\
+	height: 20px;\
+	margin-left: 10px;\
+\}\
+\
+.form-group .error-msg \{\
+	display: block;\
+	color: red;\
+	margin-top: 5px;\
+\}\
+\
+.form-group.success input \{\
+	border: 2px solid green;\
+\}\
+\
+.form-group.success .status-icon \{\
+	content: url("images/success-icon.svg");\
+\}\
+\
+.form-group.error input \{\
+	border: 2px solid red;\
+\}\
+\
+.form-group.error .status-icon \{\
+	content: url("images/error-icon.svg");\
+\}\
+\
+button \{\
+	display: block;\
+	padding: 10px 20\
+\
+}
